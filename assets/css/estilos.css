@@ -15,12 +15,12 @@ h2{
 .imagen{
     display: table;
     margin: auto;
-    height: 500px;
-    width: 500px;
+    height: 50%;
+    width: 50%;
 }
 .imagen-juegos{
     display: table;
     margin: auto;
-    height: 500px;
-    width: 800px;
+    height: 50%;
+    width: 65%;
 }
