@@ -1,0 +1,26 @@
+footer{
+    display: table;
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 1.5%;
+}
+h2{
+
+    display: table;
+    margin: auto;
+
+}
+.imagen{
+    display: table;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+}
+.imagen-juegos{
+    display: table;
+    margin: auto;
+    height: 500px;
+    width: 800px;
+}
