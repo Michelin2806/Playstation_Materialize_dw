@@ -9,7 +9,31 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon.jpg" />
 </head>
 <body>
-    <nav class="#1a237e indigo darken-4" role="navigation">
+    <div class="navbar-fixed">
+        <nav class="#1a237e indigo darken-4">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center">Playstation</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#play">Playstation</a></li>
+              <li><a href="#juego">Juegos</a></li>
+              <li><a href="#consola">Consolas</a></li>
+            </ul>
+          </div>   
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo" style="transform: translateX(-105%);">
+        <li><a href="#play">Playstation</a></li>
+        <li><a href="#juego">Juegos</a></li>
+        <li><a href="#consola">Consolas</a></li>
+    </ul>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        M.AutoInit();
+        });
+    </script>
+    <!-- <nav class="#1a237e indigo darken-4" role="navigation">
         <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Playstation</a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#inicio">Inicio</a></li>
@@ -23,22 +47,23 @@
           </ul>
           <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
-    </nav>
+    </nav> -->
     <div class="container">
         <br>
-        <div id="play"></div>  
+        <div id="play"></div> 
+        <br> 
         <h2 class="indigo-text text-darken-4"> Playstation </h2>
         <br>
         <p>Es el nombre de una serie de consolas de videojuegos creadas y desarrolladas por Sony Interactive Entertainment. Han estado presentes en la quinta, sexta, séptima, octava y novena generación de videoconsolas; la compañía promotora está actualmente en el mercado con su PlayStation 5.</p>
-        <p>La marca se introdujo por primera vez el 3 de diciembre de 1994 en Japón y ha desarrollado y publicado cinco videoconsolas de sobremesa, que incluyen un centro de medios de comunicación y un servicio en línea, posteriormente se introdujeron revistas y computadoras.</p>
-
-        <img  src="assets/img/play1.jpg" alt="" class="imagen">
+        <p>La marca se introdujo por primera vez el 3 de diciembre de 1994 en Japón y ha desarrollado y publicado cinco videoconsolas de sobremesa, que incluyen un centro de medios de comunicación y un servicio en línea, posteriormente se introdujeron revistas y computadoras.</p><br>
+        <img src="assets/img/play1.jpg" alt="" class="imagen">
 
     </div>
 
     <div class="container">
         <br>
-        <div id="juego"></div>  
+        <div id="juego"></div>
+        <br>  
         <h2 class="indigo-text text-darken-4"> Juegos </h2>
         <br>
         <img  src="assets/img/god.webp" alt="" class="imagen-juegos">
@@ -61,7 +86,8 @@
 
     <div class="container">
         <br>
-        <div id="consola"></div>  
+        <div id="consola"></div>
+        <br>  
         <h2 class="indigo-text text-darken-4"> Consolas </h2>
         <br>
         <img  src="assets/img/consola1.jpg" alt="" class="imagen-juegos">
